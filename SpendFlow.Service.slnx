@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SpendFlow.API/SpendFlow.API.csproj" />
+  <Project Path="SpendFlow.Application/SpendFlow.Application.csproj" />
+  <Project Path="SpendFlow.Domain/SpendFlow.Domain.csproj" />
+  <Project Path="SpendFlow.Infrastructure/SpendFlow.Infrastructure.csproj" />
+</Solution>
