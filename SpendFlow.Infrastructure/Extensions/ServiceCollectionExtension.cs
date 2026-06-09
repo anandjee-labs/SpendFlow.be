@@ -12,6 +12,9 @@ namespace SpendFlow.Infrastructure
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection services)
         {
             services.AddScoped<IExpenseRepository, ExpenseRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<ISubCategoryRepository, SubCategoryRepository>();
+            services.AddScoped<IPaymentModeRepository, PaymentModeRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             return services;

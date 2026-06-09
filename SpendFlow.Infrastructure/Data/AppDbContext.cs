@@ -9,5 +9,11 @@ namespace SpendFlow.Infrastructure.Data
             : base(options) { }
 
         public DbSet<Expense> Expenses { get; set; }
+
+        public DbSet<ExpenseCategory> ExpenseCategory { get; set; }
+
+        public DbSet<ExpenseSubCategory> ExpenseSubCategory { get; set; }
+
+        public DbSet<PaymentMode> PaymentMode { get; set; }
     }
 }
